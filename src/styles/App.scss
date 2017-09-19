@@ -1,0 +1,22 @@
+@import "~normalize.css";
+@import "~modularscale-sass";
+@import "~sass-mediaqueries/media-queries";
+
+.wrapper {
+	display: flex;
+	flex-flow: column;
+	max-width: 480px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Cerebri Sans";
+
+	input {
+		margin: 6px 0;
+	}
+}
+
+.page {
+	border: 1px solid #ddd;
+	padding: 48px;
+	margin: 24px 0;
+}
